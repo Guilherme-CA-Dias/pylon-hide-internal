@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Hide Internal Pylon",
+  "version": "1.0",
+  "description": "Hides divs matching a specific class string.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_title": "Hide Slack Divs"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png"
+}}
